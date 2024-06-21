@@ -1,0 +1,60 @@
+*{
+    font-family: Verdana;
+}
+body{
+    zoom: 150%;
+    background-color:rgb(0, 85, 255);
+}
+.container{
+    
+    position: fixed;
+    border-radius: 3%;
+    background-color: rgb(255, 255, 255);
+    margin: 10% 40% 0 45%;
+    padding: 20px;
+    
+}
+.form-container h2{
+    transition: 0.5s;
+    animation-direction: right;
+    animation-duration: 2s;
+    text-decoration: 2px blue underline;
+}
+form{
+    line-height: 3em;
+}
+button{
+    text-align: center;
+    letter-spacing: .1em;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 5px;
+    color: white;
+    width: 320px;
+    height: 40px;
+    background-color: rgb(0, 0, 255);
+    cursor: pointer;
+}
+
+button:hover {
+    transition: 0.3s;
+    background-color: rgba(255, 255, 255, 0.03);
+    color: rgb(0, 0, 255);
+  }
+
+#ip{
+    
+    padding-left: 20px;
+    height: 35px;
+    width: 300px;
+    border-radius: 2px;
+    box-sizing: 20px;
+    font-size: 20px;
+    border-width: 1px;
+    color: black;
+    font-weight: 700px;
+
+}
+#chk{
+    width: 20px
+}
